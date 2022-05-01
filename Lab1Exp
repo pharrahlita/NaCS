@@ -1,0 +1,12 @@
+For my first lab we were given the task to simulate our own small network using the Cisco PacketTracer Application. 
+
+In order to add specific devices to the logical workspace I simply dragged and dropped the specific devices that I needed and connected these devices to each other on the network. To connect the PCs to the switches I used straight-through copper cables as they are more common with connecting different devices together. In order to connect Switch 1 and Switch 2 to the core switch I used crossover copper cabling as this is more common for connecting alike devices. 
+
+After this, I used the IP configuration panel in order to set up IP addresses. I used the following IPv4 Addresses and Subnet Masks for each PC: 
+
+PC-PT PC0: 192.168.1.1 & 255.255.255.0
+PC-PT PC1: 192.168.1.2 & 255.255.255.0
+PC-PT PC2: 192.168.1.11 & 255.255.255.0
+PC-PT PC3: 192.168.1.12 & 255.255.255.0
+
+In order to test these connections, I used the ‘ping’ function in the command prompt to test the connectivity between PC0 and PC1 and then to test the connectivity between these two PCs and the other PCs connected to the other switch (PC2 and PC3).
