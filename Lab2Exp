@@ -1,0 +1,5 @@
+Lab 2 involved building and simulating a network using two 2960 switches and replicating a diagram using the skills learned in the previous week.  
+
+I began by adding the appropriate devices to the network and using the appropriate cables to connect them to each other (straight through copper cables for switches to servers and PCs and cross-over copper cables to connect the switches to each other).
+
+To test the connectivity, I carried out a ping test using PC-PT PC1’s command prompt to check its connectivity with PC-PT PC7. This ping test was successful as shown in the screenshot above.
