@@ -1,0 +1,16 @@
+I began task 1 by replicating the diagram shown in step one. After this, I allocated IP addresses to the appropriate devices. Then, I ensured that both FastEthernet ports on the router were set to “on”. Finally, in order to test the network I used the ping command in the command prompt. The results of this, as well as the diagram itself are shown on the following page.
+
+
+As shown in the screenshot below, the other devices connected to the same switch connected fine, however, I had a problem with the devices on the other side of the router. 
+
+
+
+I thought that this problem was most likely due to the router not being properly configured; I hadn’t properly configured IP addresses for each ethernet port in the router. In order to solve this, I went into the router’s IP config settings and assigned appropriate IPv4 addresses and subnet masks.
+
+
+
+However, this did not solve the problem. So, in order to troubleshoot the problem further, I decided to perform the tracert command in order to trace the route between PC0(192.168.1.1) and PC4(192.168.2.4), the results from this are below: 
+
+
+
+From the information above, I determined that the problem was most likely due to  a problem with the Default Gateway within my network since the request failed at the first hop. To solve this, I checked the IP configuration window of all of my devices and noticed that the default gateway and DNS server had not been configured. After configuring all of these devices correctly, I performed another ping test and all devices worked correctly. 
