@@ -4,6 +4,7 @@ In order to add specific devices to the logical workspace I simply dragged and d
 
 After this, I used the IP configuration panel in order to set up IP addresses. I used the following IPv4 Addresses and Subnet Masks for each PC: 
 
+
 PC-PT PC0: 192.168.1.1 & 255.255.255.0
 PC-PT PC1: 192.168.1.2 & 255.255.255.0
 PC-PT PC2: 192.168.1.11 & 255.255.255.0
