@@ -1,5 +1,3 @@
 I began adding the network devices to my logical workspace as I have done for previous activities, however, I encountered a problem when I tried to use a fibre cable to connect my two switches. I realised that this was due to a problem with the ports and the type of switch I chose to use (2960 switch). To solve this, I replaced these 2960 switches with empty switches, ensured that the new, empty switches were turned off and then began adding specific modules to these switches, this included the single-port Cisco Gigabit Ethernet Network Module (part number PT-SWITCH-NM-1FGE) and PPT-SWITCH-NM-1CFE Module Module provides one Fast-Ethernet interface for use with copper media. 
 
-
-
 	Although I only required two fibre optic ports in switch0 (one for the server and one to connect to the other switch as stated in the requirement brief), I decided to add extra fibre optic ports to both switches in order to ensure that I am accommodating the network for potential future expansion. 
